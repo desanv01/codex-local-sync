@@ -1,0 +1,16 @@
+name: Feature request
+description: Propose a focused improvement to local organization sync.
+title: "[Feature] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and intended result
+      description: Describe the workflow using synthetic names and paths.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Proposed scope and alternatives
+      description: Explain which supported local fields or commands would change.
