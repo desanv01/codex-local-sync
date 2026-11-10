@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0b1 — beta preparation
+## 0.1.0b1 — 2026-11-10
 
 - Python 3.11+ package and command-line interface for two explicitly selected local profiles.
 - Conservative schema validation, baseline merge planning, conflict pauses and opt-in removal handling.
@@ -8,4 +8,4 @@
 - Windows process checks, foreground/background watcher controls and optional current-user startup.
 - Synthetic regression coverage and deterministic source-release packaging.
 
-This entry describes the initial implementation scope. Publication and compatibility evidence are recorded separately in [release preparation](docs/release.md) and [compatibility](docs/compatibility.md). No public release date is asserted here.
+Initial public beta. Release packaging and compatibility evidence are recorded in [the release process](docs/release.md) and [compatibility](docs/compatibility.md).

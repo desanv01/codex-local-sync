@@ -19,7 +19,7 @@ The adapter recognizes observed keys including `electron-account-renderer-state-
 | Verification | Current record |
 | --- | --- |
 | Synthetic regression suite | 32 tests passed locally on Windows / Python 3.11, including a complete run against the installed wheel. Covers merge, scope preservation, signed-out snapshots, conflicts, recovery, locking, CLI and mocked lifecycle checks. |
-| Windows Python 3.11 / 3.13 CI | Workflow prepared; no hosted result claimed during local preparation |
+| Windows Python 3.11 / 3.13 CI | Both hosted jobs passed tests, wheel/sdist audits, installed entry points and source ZIP checks on November 10, 2026. [Implementation CI evidence](https://github.com/desanv01/codex-local-sync/actions/runs/42734238857). |
 | Source ZIP | Local allowlist/payload audit and privacy-pattern scan passed; two builds from identical frozen input bytes matched |
 | Wheel / sdist | Built locally and passed source-byte, membership, metadata, complete synthetic-test-source and entry-point audits. The wheel installed into a project-local virtual environment successfully. |
 | Real desktop account switching with this packaged beta | Not performed during development; live settings and installed helper are protected |

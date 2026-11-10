@@ -1,6 +1,7 @@
 <h1 align="center">codex-local-sync</h1>
 
 <p align="center">
+  <a href="https://github.com/desanv01/codex-local-sync/actions/workflows/ci.yml"><img src="https://github.com/desanv01/codex-local-sync/actions/workflows/ci.yml/badge.svg?branch=main" alt="Windows Python 3.11 and 3.13 checks" /></a>
   <strong>Switch accounts. Keep local organization in step.</strong><br />
   Preview changes, preserve recovery backups and synchronize two selected profiles after Codex closes.
 </p>
@@ -43,6 +44,8 @@ The beta works against an observed local settings schema. It does not establish 
 Selecting two profiles intentionally shares supported local organization between them. Review that choice before connecting personal and employer profiles. Local backups can contain private settings; keep them private.
 
 ## Get started
+
+Download the [beta release](https://github.com/desanv01/codex-local-sync/releases/tag/v0.1.0-beta.1) source ZIP or clone this repository. Release assets include a wheel, source distribution, source ZIP and SHA-256 checksums.
 
 Requires **Python 3.11+**. From a reviewed source checkout or extracted source release, open PowerShell in its directory:
 

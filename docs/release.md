@@ -1,18 +1,18 @@
-# Release preparation
+# Release process
 
-This document prepares a public beta. It does not assert that a GitHub repository, hosted CI run or release already exists. Main owns Git integration and publication after local checks pass.
+The public repository is [desanv01/codex-local-sync](https://github.com/desanv01/codex-local-sync). The initial beta is published through a reviewed pull request after local checks and Windows CI. This document describes artifact generation and the publication gates.
 
-## Proposed repository metadata
+## Repository metadata
 
-| Field | Proposed value |
+| Field | Value |
 | --- | --- |
 | Owner / repository | `desanv01/codex-local-sync` |
-| Visibility | Public, after local verification and publication review |
+| Visibility | Public |
 | Description | Windows-first local Codex organization sync between two selected profiles, with preview, backups and recovery. |
 | Topics | `codex`, `windows`, `python`, `local-first`, `cli`, `backup`, `sync`, `mit-license` |
 | License | MIT, copyright 2026 Desan Vasu |
 | Package version | `0.1.0b1` |
-| Proposed Git tag | `v0.1.0-beta.1` |
+| Git tag | `v0.1.0-beta.1` |
 | Website | Leave unset until a real project page exists |
 
 The README follows the author's existing project style: centered summary, truthful badges, navigation, scope and evidence. No fabricated demo, screenshots, CI badge or download link is needed for local preparation.
